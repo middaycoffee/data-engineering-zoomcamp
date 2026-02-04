@@ -1,0 +1,30 @@
+id: 05_taxi_scheduler
+namespace: zoomcamp
+
+inputs:
+  - id: taxi
+    type: SELECT
+    displayName: Taxi Type
+    values: [yellow, green]
+    defaults: yellow
+  - id: year
+    type: SELECT
+    displayName: Select Year
+    values: ["2019", "2020", "2021"]
+    defaults: "2020"
+
+tasks:
+  - id: run_for_each_month
+    type: io.kestra.plugin.core.flow.ForEach
+    values: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+    concurrencyLimit: 1
+    tasks:
+      - id: run_subflow
+        type: io.kestra.plugin.core.flow.Subflow
+        flowId: 04_postgres_taxi  
+        namespace: zoomcamp
+        inputs:
+          taxi: "{{ inputs.taxi }}"
+          year: "{{ inputs.year }}"
+          month: "{{ taskrun.value }}"  # <--- This is the magic. It forces the month to change.
+        wait: true
