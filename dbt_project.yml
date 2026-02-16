@@ -26,7 +26,6 @@ vars:
   dev_end_date: '2019-02-01'
 
 # Configuring models
-# Full documentation: https://docs.getdbt.com/docs/configuring-models
 models:
   taxi_rides_ny:
     staging:
