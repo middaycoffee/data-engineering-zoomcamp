@@ -1,0 +1,10 @@
+version: 2
+
+sources: 
+  - name: raw_data
+    description: "Raw data sources for NYC Taxi Rides"
+    database: de-zoomcamp-module-3-dbt #project name
+    schema: nyc_taxi_datas #dataset name
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
