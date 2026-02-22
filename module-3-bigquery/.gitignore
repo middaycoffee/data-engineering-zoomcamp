@@ -1,0 +1,8 @@
+.DS_Store
+*.parquet
+answers.txt
+*.csv
+.env
+*.json
+__pycache__/
+.ipynb_checkpoints/
