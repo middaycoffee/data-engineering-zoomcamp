@@ -1,0 +1,15 @@
+name: zoomcamp_nyc_taxi
+
+schedule: monthly
+
+start_date: "2019-01-01"
+
+default_connections:
+  duckdb: duckdb-default
+
+variables:
+  taxi_types:
+    type: array
+    items:
+      type: string
+    default: ["yellow", "green"]

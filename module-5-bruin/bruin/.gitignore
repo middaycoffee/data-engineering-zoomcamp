@@ -1,0 +1,12 @@
+.bruin.yml
+logs/
+__pycache__/
+*.py[cod]
+logs/queries
+duckdb.db
+*.db
+*.duckdb
+*.env
+bruin-pipeline/
+.claude/
+todo.md
