@@ -1,0 +1,31 @@
+environments:
+  default:
+    connections:
+
+      
+      example: add a Google BigQuery connection
+      google_cloud_platform:
+        - name: "gcp-default"
+          service_account_file: "/path/to/service_account.json"
+          project: "your-gcp-project-id"
+
+      # example: add a Snowflake connection
+      # snowflake:
+      #   - name: "snowflake-default"
+      #     account: "your_account"
+      #     username: "your_user"
+      #     password: "your_password"
+      #     database: "your_database"
+      #     schema: "your_schema"
+      #     warehouse: "your_warehouse"
+      #     role: "your_role"
+
+      # example: add a Postgres connection
+      # postgres:
+      #   - name: "postgres-default"
+      #     host: "localhost"
+      #     port: 5432
+      #     username: "postgres"
+      #     password: "postgres"
+      #     database: "your_database"
+      #     ssl_mode: "disable"
