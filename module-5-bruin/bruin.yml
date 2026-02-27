@@ -2,12 +2,12 @@ environments:
   default:
     connections:
 
-      
+
       example: add a Google BigQuery connection
       google_cloud_platform:
         - name: "gcp-default"
-          service_account_file: "/path/to/service_account.json"
-          project: "your-gcp-project-id"
+          service_account_file: ""C:\Users\USER\Desktop\Python\DataTalks DE ZoomCamp 2026\module-5-bruin-488710-b307dbac76bb.json""
+          project: "module-5-bruin-488710"
 
       # example: add a Snowflake connection
       # snowflake:
