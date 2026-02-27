@@ -1,1 +1,6 @@
 notes.txt
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
