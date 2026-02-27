@@ -1,4 +1,3 @@
-.bruin.yml
 logs/
 __pycache__/
 *.py[cod]
