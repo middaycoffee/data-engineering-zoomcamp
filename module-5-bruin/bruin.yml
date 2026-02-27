@@ -1,15 +1,21 @@
 environments:
   default:
     connections:
+      duckdb:
+        - name: "duckdb-default"
+          path: "./duckdb.db"
 
+      chess:
+        - name: "chess-default"
+          players:
+            - "MagnusCarlsen"
+            - "HikaruNakamura"
 
-      example: add a Google BigQuery connection
       google_cloud_platform:
         - name: "gcp-default"
-          service_account_file: ""C:\Users\USER\Desktop\Python\DataTalks DE ZoomCamp 2026\module-5-bruin-488710-b307dbac76bb.json""
+          service_account_file: "C:/Users/USER/Desktop/Python/DataTalks DE ZoomCamp 2026/module-5-bruin-488710-b307dbac76bb.json"
           project: "module-5-bruin-488710"
 
-      # example: add a Snowflake connection
       # snowflake:
       #   - name: "snowflake-default"
       #     account: "your_account"
@@ -20,7 +26,6 @@ environments:
       #     warehouse: "your_warehouse"
       #     role: "your_role"
 
-      # example: add a Postgres connection
       # postgres:
       #   - name: "postgres-default"
       #     host: "localhost"
