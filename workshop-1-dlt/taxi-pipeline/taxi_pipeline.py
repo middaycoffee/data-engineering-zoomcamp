@@ -32,7 +32,6 @@ if __name__ == "__main__":
         destination="duckdb",
         dataset_name="taxi_data",
         progress="log",
-        dev_mode=True,
     )
     load_info = pipeline.run(taxi_source())
     print(load_info)
