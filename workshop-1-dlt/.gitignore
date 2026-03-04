@@ -1,0 +1,8 @@
+secrets.toml
+*.secrets.toml
+.dlt/profile-name
+.dlt/.var
+_local
+*.duckdb
+*.wal
+.claude
