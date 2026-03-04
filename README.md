@@ -33,6 +33,14 @@ Deep dive into cloud-native analytical databases and performance optimization.
 Transforms raw data into clean, production-ready models.
 * **Key Concepts:** dbt (Data Build Tool), data modeling, testing, macros, and staging/core layers.
 
+### [Module 5: Data Orchestration with Bruin](./module-5-bruin)
+Focuses on defining, running, and orchestrating data assets using Python and SQL.
+* **Key Concepts:** Bruin, pipeline orchestration, data assets, dependency tracking.
+
+### [Workshop 1: Data Ingestion with dlt](./workshop-1-dlt)
+Covers the creation of an end-to-end data pipeline ingesting data from a paginated API into a local database.
+* **Key Concepts:** dlt (data load tool), DuckDB, Marimo, paginated JSON APIs.
+
 ---
 
 ## How to Use This Repository

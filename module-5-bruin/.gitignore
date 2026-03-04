@@ -6,6 +6,8 @@ duckdb.db
 *.db
 *.duckdb
 *.env
+*.json
 bruin-pipeline/
 .claude/
 todo.md
+bruin.yml
