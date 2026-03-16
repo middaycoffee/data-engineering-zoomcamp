@@ -1,8 +1,8 @@
-# Module 6: Batch Processing with Apache Spark
+## Module 6: Batch Processing with Apache Spark
 
-This folder contains my work for Module 6 of the Data Engineering Zoomcamp 2026, covering batch processing with Apache Spark and PySpark.
+This folder contains my work for Module 6 of the Data Engineering Zoomcamp 2026, covering batch processing with PySpark.
 
-## Key Concepts
+### Key Concepts
 
 - Setting up a local Spark environment (JDK 17 + Hadoop on Windows)
 - Reading raw CSV data with explicit schemas using PySpark
@@ -12,7 +12,7 @@ This folder contains my work for Module 6 of the Data Engineering Zoomcamp 2026,
 - User-Defined Functions (UDFs)
 - Spark SQL for querying DataFrames
 
-## Project Structure
+### Project Structure
 
 ```
 module-6-batch/
@@ -26,13 +26,13 @@ module-6-batch/
 └── download_data.sh        # Bash script to download NYC Taxi data by type/year
 ```
 
-## Prerequisites
+### Prerequisites
 
 - Java JDK 17
 - Hadoop binaries (for Windows `winutils.exe`)
 - Python 3.x with PySpark installed
 
-## Setup
+### Setup
 
 1. Install dependencies into the virtual environment:
    ```bash
@@ -45,7 +45,7 @@ module-6-batch/
    os.environ["HADOOP_HOME"] = "C:/tools/hadoop"
    ```
 
-## Download Data
+### Download Data
 
 Use the provided script to download NYC Taxi data:
 
@@ -56,6 +56,6 @@ bash download_data.sh green 2020
 
 Data is saved to `data/raw/{taxi_type}/{year}/{month}/`.
 
-## Data Source
+### Data Source
 
 - [NYC TLC Trip Record Data (DataTalksClub mirror)](https://github.com/DataTalksClub/nyc-tlc-data)
