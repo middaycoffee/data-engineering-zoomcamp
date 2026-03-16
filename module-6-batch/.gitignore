@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Data files
+data/
+
+# Code folder (data files, notebooks output)
+code/
+
+# Test scripts
+test_spark.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
