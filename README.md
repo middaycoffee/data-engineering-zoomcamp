@@ -41,6 +41,9 @@ Focuses on defining, running, and orchestrating data assets using Python and SQL
 Covers the creation of an end-to-end data pipeline ingesting data from a paginated API into a local database.
 * **Key Concepts:** dlt (data load tool), DuckDB, Marimo, paginated JSON APIs.
 
+### [Module 6: Batch Processing with PySpark](./module-6-batch/)
+Examines distributed batch processing using PySpark on NYC Taxi datasets.
+* **Key Concepts:** DataFrame transformations, Jupyter, reading and writing Parquet, repartitioning, StructType.
 ---
 
 ## How to Use This Repository
