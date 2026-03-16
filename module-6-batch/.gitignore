@@ -25,3 +25,7 @@ __pycache__/
 spark-warehouse/
 metastore_db/
 derby.log
+
+# other
+notes.txt
+
