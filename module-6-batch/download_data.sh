@@ -1,4 +1,4 @@
-
+# a bash script to download ny taxi data
 set -e
 
 TAXI_TYPE=$1 # "yellow"
