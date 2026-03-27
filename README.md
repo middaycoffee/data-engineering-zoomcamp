@@ -44,6 +44,10 @@ Covers the creation of an end-to-end data pipeline ingesting data from a paginat
 ### [Module 6: Batch Processing with PySpark](./module-6-batch/)
 Examines distributed batch processing using PySpark on NYC Taxi datasets.
 * **Key Concepts:** DataFrame transformations, Jupyter, reading and writing Parquet, repartitioning, StructType.
+
+### [Module 7: Stream Processing with PyFlink](./module-6-batch/)
+Workshop of stream processing with PyFlink on NYC Taxi datasets (green-taxi trips).
+* **Key Concepts:** Redpanda, Session window, tumbling window, consumer, producer, Kafka, PyFlink.
 ---
 
 ## How to Use This Repository

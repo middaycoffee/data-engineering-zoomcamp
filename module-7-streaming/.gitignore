@@ -1,1 +1,13 @@
+#environments
+.venv/
+
+#cache
+notebook/__pycache__/
+src/producers/__pycache__/
+
+#other
 main.py
+answers.txt
+
+
+
