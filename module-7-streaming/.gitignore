@@ -2,7 +2,7 @@
 .venv/
 
 #cache
-notebook/__pycache__/
+notebooks/__pycache__/
 src/producers/__pycache__/
 
 #other
